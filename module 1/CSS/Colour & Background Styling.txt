@@ -1,0 +1,18 @@
+body {
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #cccccc; /* fallback */
+}
+
+/* HEX and RGBA */
+h2 {
+  color: #003366;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Gradient header */
+section.header {
+  background: linear-gradient(to right, #004466, #66ccff);
+  color: white;
+  padding: 20px;
+}
